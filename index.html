@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Huiswerk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/stijl.css">
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js">
+    </script>
+<script src="script.js"></script>
+<script>
+    $(document).ready(function() {
+    $("p").hide();
+    $("div").hide();
+    $("#toon").click(function() {
+    $("p").show();
+    $("div").show();
+    $("#toon").hide();
+    });
+    });
+    </script>
+  </head>
+<body>
+    <header>
+      <h1>Welkom</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>Wist je dat... de grootse cactus ter wereld 25 meter hoog is?</h2>
+
+        <p>
+            De cereus is de grootste cactussoort ter wereld. Deze soort cactus is te vinden in zowel noord als zuid Amerika. De gemiddelde lengte is tussen de 12 en 15 meter hoog.
+            De Californische reus zoals de grootse cactus ter wereld ook wel word genoemd. Staat in het Guinness Book of Records en word officieel erkend als de meest gigantische cactus ter wereld. Met een lengte van 25 meter is het niet alleen de grootse cactus ter wereld maar ook de zwaarste plant ter wereld. Er word geschat dat er 6 tot 10 ton water in de plant bevind.
+        </p>
+
+        <h3>Wist je dat... Coca-Cola oorspronkelijk groen was ?</h3>
+
+        <p>
+            Weinig extra informatie nodig, want het feitje zegt al genoeg. Vroeger toen de eerste cola werd gemaakt was deze nog groen van kleur. Coca-Cola is uitgevonden door de apotheker John Pemberton, die het drankje als een medicijn ontwikkelde tegen onder andere hoofdpijn en vermoeidheid.
+        </p>
+
+        <h3>Wist je dat... McDonalds elke seconde 75 hamburgers verkoopt?</h3>
+
+        <p>
+            MacDonalds heeft in 2017 37.000 vestigingen door 120 landen. En in totaal ruim 235.000 mederwerkders. In deze winkels bij elkaar worden er per seconden 75 hamburgers verkocht. Er zitten in totaal 86.400 seconden in 1 dag dus dat betekend dat er op één dag 6.480.000 hamburgers worden verkocht. En dit zijn alleen de hamburgers maar.
+        </p>
+
+        <button id="toon">Meer</button>
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+    </article>
+<aside>
+    <div><img src="afbeeldingen/cactus.jpeg" alt="cactus" height="200"></div>
+    <div><img src="afbeeldingen/cocacola.jpeg" alt="coca cola" height="200"></div>
+    <div><img src="afbeeldingen/hamburger.jpeg" alt="hamburger" width="170"></div>
+      </aside>
+    </main>
+<footer>
+      <p>©Copyright 2023 JSN.</p>
+    </footer>
+  </body>
+</html>
